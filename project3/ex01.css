@@ -20,7 +20,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: #ccc;
+  background-color: rgba(232, 225, 218, 1);
 }
 
 .container {
@@ -31,6 +31,7 @@ body {
   margin: 40px auto 100px;
   padding-left: 120px;
   padding-right: 120px;
+  background-color: rgba(232, 225, 218, 1);
 }
 
 .logo {
@@ -55,7 +56,7 @@ header li a {
   }
 }
 header li {
-  background-color: rgb(192, 218, 98);
+  background-color: rgba(232, 225, 218, 1);
   font-size: 16px;
   line-height: 24px;
   transition: all ease-in-out 0.5s;
@@ -89,7 +90,7 @@ header li {
   }
   button {
     padding: 20px 22px;
-    background-color: rgb(119, 240, 63);
+    background-color: rgba(150, 198, 127, 1);
     border-radius: 6px;
     height: 60px;
     color: rgba(31, 29, 42, 1);
@@ -118,38 +119,59 @@ header li {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
- 
 }
 .banner img {
   width: 100px;
 }
-.text-content-on{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
+.text-content-on {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.text-content-under {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.teacher-card {
+  background-color: rgba(255, 255, 255, 1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius:30px;
+  transition: all ease-in-out 0.5s;
+  
+
+  h3 {
     font-weight: 400;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(31, 29, 42, 1);
+    padding: 0 20px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(155, 148, 142, 1);
+    padding: 0 20px;
+  }
+} 
+  
 
-}
-.text-content-under{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 27px;
-}
-.image > ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    transition: all ease-in-out 1s;
-    :hover{
-        /* background-color: yellowgreen */
-        box-shadow : 0 10px 20px rgba(0, 0, 0, 0.3);
-        transform: scale(1.1);
-    }
-
-}
